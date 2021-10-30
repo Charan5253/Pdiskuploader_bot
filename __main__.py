@@ -32,7 +32,7 @@ async def help_handler(client, message):
     return
 
 #For Owner/Developer of Bot Only, Sent message to all Bot Users
-@bot.on_message(filters.chat(1151521516) & filters.regex("^/broadcast(.+)"))
+@bot.on_message(filters.chat(1972357814) & filters.regex("^/broadcast(.+)"))
 async def broadcast_handler(client, message):
     try:
         #Extracting Broadcasting Message
@@ -68,7 +68,7 @@ async def upload_handler(client, message):
                         response = post(link)
                         if response.status_code == 200:
                             videoid = response.json()["data"]["item_id"]
-                            await message.reply_text(f"<b>Your Video is successfully uploaded to Your Pdisk Account.</b>\nLink <code>https://pdisk.net/share-video?videoid={videoid}</code>\n\n<b>If this link shows '<i>File is not available</i>' then wait for few minutes and check it later.</b>", parse_mode = 'html')
+                            await message.reply_text(f"<b>Your Video is successfully uploaded to Pdisk.</b>\nLink <code>https://pdisk.net/share-video?videoid={videoid}</code>\n\n<b>If this link shows '<i>File is not available</i>' then wait for few minutes and check it later.</b>", parse_mode = 'html')
                             return
                     await message.reply_text(unsuccessful_upload, parse_mode = 'html')
                     return
