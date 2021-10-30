@@ -5,13 +5,13 @@
 
 import os
 
-bot_token = os.environ["BOT_TOKEN"]
+bot_token = os.environ["2089129150:AAEE3oNNcd3NANRiIeVXJmDmQ0w2EuQxL1g"]
 
-api_id = os.environ["API_ID"]
+api_id = os.environ["8971105"]
 
-api_hash = os.environ["API_HASH"]
+api_hash = os.environ["b68b85bd69e423c421984a551b83e959"]
 
-pdisk_api = os.environ["PDISK_API"]
+pdisk_api = os.environ["15ad1b496285541feb5d0e3334219f9b"]
 
 try:
     connection_string = os.environ["MONGO_CON_STRING"]
