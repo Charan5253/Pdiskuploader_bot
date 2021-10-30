@@ -13,8 +13,8 @@
         "ajtimepyro",
         "uploader"
     ],
-    "repository" : "https://github.com/Moviesbazar/Pdiskuploader_bot",
-    "success_url" : "http://t.me/pdisk_fileuploader_bot",
+    "repository" : "https://github.com/AJTimePyro/PdiskUploaderBot",
+    "success_url" : "https://t.me/PdiskUploaderAJBot",
     "env" : {
         "BOT_TOKEN" : {
             "description" : "Create/Generate From https://t.me/BotFather"
