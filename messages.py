@@ -4,7 +4,7 @@
 '''Bot Messages defined'''
 
 
-common_text = "\n\n<b><u>If you are facing any problem, so report at @AJPyroVerseGroup</u></b>"
+common_text = "\n\n<b><u>If you are facing any problem, so report at @moviesbazar0371</u></b>"
 
 help_msg = f"<b>To use me, Just Send me any raw link which contain video, and I will upload it to Pdisk.</b>{common_text}"
 
