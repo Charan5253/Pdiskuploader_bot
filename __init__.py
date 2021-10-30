@@ -2,5 +2,5 @@
 
 
 """
-Source Code of Pdiskuploader_bot
+Source Code of Pdiskuploaderbot
 """
