@@ -9,10 +9,10 @@ from bot.plugins import *
 
 '''Login as a Bot'''
 bot = Client(
-    'PdiskUploader',
-    api_id = api_id,
-    api_hash = api_hash,
-    bot_token = bot_token
+    '@Pdiskuploader_bot',
+    api_id = 11480401,
+    api_hash = e151e5dc145d2b42accde41a37207201,
+    bot_token = 5911160230:AAFk86M5NjtvPxqFUd9mXv_W4YlGHIGO8k8
 )
 
 
